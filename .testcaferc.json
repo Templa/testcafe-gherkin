@@ -1,0 +1,16 @@
+{
+    "src":["tests/step_definitions/*.ts", "tests/features/*.feature"],
+    "screenshots": {
+        "path": "reports/screenshots/",
+        "takeOnFails": true
+    },
+    "quarantineMode": false,
+    "stopOnFirstFail": false,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
+    "concurrency": 2,
+    "selectorTimeout": 10000,
+    "assertionTimeout": 10000,
+    "pageLoadTimeout": 20000,
+    "disablePageCaching": true
+}

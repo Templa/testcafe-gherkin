@@ -1,0 +1,17 @@
+{
+  "name": "testcafe-gherkin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gherkin-testcafe chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "gherkin-testcafe": "^2.5.1",
+    "testcafe": "^1.9.3"
+  }
+}

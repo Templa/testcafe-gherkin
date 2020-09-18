@@ -1,0 +1,20 @@
+# Dependency directory
+node_modules/
+npm-debug.log
+
+# Screenshots
+reports/screenshots
+
+# Added empty reports folder
+reports/*
+!reports/.gitkeep
+
+#VSCode files
+.vscode/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+log/
+.idea/
