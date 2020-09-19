@@ -8,10 +8,18 @@ $ npm install -d
 $ npm run test
 ```
 
+## Run test from runner file
+
+```sh
+$ npm run test:runner
+```
+
 ## Concurrent test
 
 ```sh
 $ npm run test -- -c 2
+or
+$ npm run test:parallel
 ```
 
 Where 2 is the number of concurrent browsers
@@ -19,10 +27,16 @@ Where 2 is the number of concurrent browsers
 ![Image of Yaktocat](images/console.png)
 
 
+## Debug
+
+```sh
+$ npm run test:debug
+```
+
 License
 ----
 
-MIT
+> MIT
 
 
 Rereferences
