@@ -7,8 +7,9 @@
     "test": "gherkin-testcafe chrome",
     "test:runner": "node runner.js",
     "test:debug": "DEBUG=testcafe:* node runner.js",
-    "eslint": "./node_modules/.bin/eslint './**/*.ts' --quiet",
-    "eslint:fix": "./node_modules/.bin/eslint './**/*.js' --fix; exit 0"
+    "test:parallel": "gherkin-testcafe -c 2 chrome:headless tests/",
+    "eslint": "eslint './**/*.ts' --quiet",
+    "eslint:fix": "eslint '*.js' './**/*.ts' --fix; exit 0"
   },
   "keywords": [],
   "author": "Templa",

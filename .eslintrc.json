@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 2020,
     "sourceType": "module"
   },
   "root": true,
@@ -20,6 +20,6 @@
     "new-cap": 0,
     "require-jsdoc": 0,
     "no-unused-vars": [1, { "vars": "all", "args": "none","varsIgnorePattern": "Given|When|Then", "ignoreRestSiblings": false }],
-    "indent": ["error", 4]
+    "indent": ["error", 2]
   }
 }
