@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gherkin-testcafe chrome"
+    "test": "gherkin-testcafe chrome",
+    "test:runner": "node runner.js",
+    "test:debug": "DEBUG=testcafe:* node runner.js",
+    "eslint": "./node_modules/.bin/eslint './**/*.ts' --quiet",
+    "eslint:fix": "./node_modules/.bin/eslint './**/*.js' --fix; exit 0"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Templa",
+  "license": "MIT",
   "dependencies": {
     "cucumber": "^6.0.5",
     "gherkin-testcafe": "^2.5.1",
-    "testcafe": "^1.9.3"
+    "testcafe": "^1.9.3",
+    "eslint": "^7.9.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
